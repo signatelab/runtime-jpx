@@ -1,0 +1,13 @@
+torch==1.7.1
+torchvision==0.8.2
+transformers==4.2.2
+mecab-python3==0.996.6rc1
+ipadic==1.0.0
+neologdn==0.4
+fugashi==1.0.5
+pandas==1.1.5
+scattertext==0.1.0.0
+wordcloud==1.8.1
+japanize-matplotlib==1.1.3
+gensim==3.8.3
+pyLDAvis==2.1.2

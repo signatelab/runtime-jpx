@@ -1,0 +1,6 @@
+name: base
+channels:
+  - conda-forge
+dependencies:
+  - ta-lib=0.4.19=py37h161383b_2
+prefix: /opt/conda
