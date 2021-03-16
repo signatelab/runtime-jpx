@@ -40,5 +40,4 @@ RUN useradd signate -u 1000 -s /bin/bash -m
 USER signate
 
 COPY download_models.py /tmp/download_models.py
-RUN python /tmp/download_models.py && \
-    rm -f /tmp/download_models.py
+RUN python /tmp/download_models.py
