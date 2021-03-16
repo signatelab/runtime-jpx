@@ -32,15 +32,13 @@ RUN pip install -U pip && \
     pip install -r /root/requirements.txt && \
     rm -f /root/requirements.txt
 
-COPY base.yml /root
 RUN conda update conda && \
-    conda env update -f /root/base.yml && \
-    rm -f /root/base.yml
+    conda install -c conda-forge ta-lib
 
 WORKDIR /opt/ml
 RUN useradd signate -u 1000 -s /bin/bash -m
 USER signate
 
-COPY download_models.py /root/download_models.py
-RUN python /root/download_models.py && \
-    rm -f /root/download_models.py
+COPY download_models.py /tmp/download_models.py
+RUN python /tmp/download_models.py && \
+    rm -f /tmp/download_models.py
