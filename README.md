@@ -1,7 +1,7 @@
 # runtime-jpx
 
 ## Introduction
-本リポジトリは、CPUを利用したSIGNATE Runtimeのデバッグをするために記述されたDockerfileです。runtime-jpxは、Runtime機能に依存するため、詳しくは[こちら](https://signate.jp/features/runtime/detail)か、もしくは該当するコンペティション詳細をご確認ください。
+本リポジトリは、CPUを利用したSIGNATE Runtimeのデバッグをするために記述されたDockerfileです。runtime-jpxは、Runtime機能に依存するため、詳しくは[こちら](https://signate.jp/features/runtime/detail)か、もしくは該当するコンペティション詳細をご確認ください。ただし、Docker imageについては本ページで配布するものをお使いください。
 
 ### SIGNATE Runtimeとは
 
